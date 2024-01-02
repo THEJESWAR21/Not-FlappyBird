@@ -11,17 +11,16 @@ public class PlayerMovement : MonoBehaviour
     // Declaration Of Variables
     public float JumpForce = 5;
    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space) == true){
             rb.velocity = Vector2.up * JumpForce;
+
         }
+
+       
 
     }
 }
