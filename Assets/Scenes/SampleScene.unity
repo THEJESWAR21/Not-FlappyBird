@@ -1050,8 +1050,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pipe: {fileID: 1339602971553722392, guid: 4cfa8ce36d195b341be7f88a9ccac86e, type: 3}
-  spawnrate: 2
-  heightOffset: 1
+  spawnrate: 1.5
+  heightOffset: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
