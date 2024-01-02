@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Diagnostics;
+using System;
 
 public class LogicScripts : MonoBehaviour
 {
@@ -10,13 +12,12 @@ public class LogicScripts : MonoBehaviour
     public int playerScore;
     public GameObject gameOverScreen;
 
-    [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd ){
         playerScore = playerScore + 1;
         scoreText.text = playerScore.ToString();
     }
 
-    public void restartGame(){
+     public void RestartGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
